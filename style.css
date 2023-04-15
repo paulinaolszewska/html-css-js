@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+p{
+    /* color:aqua !important; */
+    color:aqua;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* #exampletext{
+    color:green;
+} */
+
+
+
+.textred{
+    /* style dla tekstu */
+    color:red;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-shadow: 2px -1px 5px rgba(66, 68, 90, 0.7);
+    font-style:italic;
+    /* style box model */
+    width:1000px;
+    height: 600px;
+    padding:50px 60px;
+    border:2px solid black;
+    border-radius: 5px;
+    margin:50px auto;
+    /* background-color: rgba(255, 227, 194, 0.4); */
+    background-image: url(images/pic1.jpg);
+    background-size: cover;
+}
+/* p[class="textred"]{
+    color:pink;
+} */
+.textred:hover{
+    color:green;
+}
+.list{
+    list-style: none;
+}
+.list a{
+    text-decoration: none;
+}
