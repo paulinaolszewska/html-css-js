@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <style>
+        .timer{
+            position:absolute;
+            top:30%;
+            left:0;
+            width:100vw;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 60px;
+        }
+        .start,.reset{
+            font-size:44px;
+            margin:30px;
+        }
+    </style>
+</head>
+<body>
+    <button class="start" id="start">Start</button>
+    <button class="reset" id="reset">Reset</button>
+    <div class="timer">
+        <p>Czas od start</p>
+        <div id="timerTxt">---</div>
+    </div>
+    <script src="timer.js"></script>
+</body>
+</html>

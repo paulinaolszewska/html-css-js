@@ -33,3 +33,21 @@
  .menu-list li a:hover{
     color:#a67c52;
  }   
+@media screen and (max-width: 767px){
+    .menu{
+        height: 40vh;
+        width:40%;
+    }
+    .menu-list{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .pinterest{
+        flex-grow: 0;
+        order:2;
+    }
+    .facebook{
+        order:1;
+    }
+}
