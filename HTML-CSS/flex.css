@@ -7,6 +7,7 @@
     height: 10vh;
     width: 100%;
 }
+/* domyślne właściwości flexa flex-direction:row, justify-content działa wzdłuż osi głównej (czyli tej wzdłuż której ustawiają się obiekty), align-items ustawia elementy względem siebie wzdłuż osi prostopadłej do osi głównej */
 .menu-list{
     list-style: none;
     background-color: #aadbdd;
@@ -17,6 +18,7 @@
     justify-content: flex-end;
     padding: 0 25px;
 }
+/* flex-grow mówi elementowi, aby rósł i zajął całą wolną przestrzeń kontenera */
 .pinterest{
     flex-grow: 1;
 }

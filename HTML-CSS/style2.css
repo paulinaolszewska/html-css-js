@@ -15,9 +15,11 @@ body{
     text-align: center;
     padding-bottom:55px;
 }
+/* text-align to wyrównanie tekstu */
 .lorem{
     text-align: center;
 }
+/* kombinator selektorów ze spacją-wszystkie elementy h2 wewnątrz elementu o klasie container */
 .container h2{
     text-align: center;
     padding-bottom: 40px;
